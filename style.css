@@ -1,0 +1,24 @@
+/* ==== GENERAL STYLES ==== */
+* {
+    box-sizing: border-box;
+}
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1, h2, h3, 
+ul, 
+p, span, 
+img {
+    margin-bottom: 1.5rem;
+}
+body {
+    background: url('assets/háttérkép.jpg') repeat center;
+    color: #011d0f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.introduction, .services, .software-knowledge, .prices, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    text-align: center;
+}
