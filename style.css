@@ -22,3 +22,76 @@ body {
     padding: 1rem;
     text-align: center;
 }
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1em;
+    font-style: italic;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Josfin Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: #16a144;
+}
+a:hover {
+    color: #0d7240;
+    transition: color .15s ease-in-out;
+}
+/* ==== HEADER STYLES ==== */
+.cover {
+    background: url('assets/DSC_3645.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: table;
+  }
+  .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-text {
+    background-color: hsla(100,0%,0%,.6);
+    margin-top: 12rem;
+    padding: 1.5rem;
+    color: #8ae59e;
+}
+header h2 {
+    font-size: 1.5rem;
+}
+header .tagline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+ .tagline::after {
+    display: block;
+    content:"";
+    background-color: #8ae59e;
+    height: 1px;
+    width: 12.515625rem;
+    margin: 1.2rem auto;
+}
+h1::after {
+    display: block;
+    content:"";
+    background-color: #8ae59e;
+    height: 1px;
+    width: 12.515625rem;
+    margin: 1.2rem auto;
+}
+
