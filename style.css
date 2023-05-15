@@ -12,8 +12,8 @@ img {
 body {
     background: url('assets/háttérkép.jpg') repeat center;
     color: #011d0f;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
     line-height: 1.5rem;
 }
 .introduction, .services, .software-knowledge, .prices, .contact {
@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 3rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -32,7 +32,7 @@ h1 {
     font-weight: 700;
 }
 h2 {
-    font-family: 'Josfin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 2rem;
     line-height: 2rem;
     font-style: italic;
@@ -40,10 +40,21 @@ h2 {
 h3 {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+ul {
+    text-align: left;
+    list-style-type: circle;
+    padding-left: 1rem;
+}
+li {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
 }
 a {
     text-decoration: none;
-    color: #16a144;
+    color: #268826;
 }
 a:hover {
     color: #0d7240;
@@ -82,16 +93,110 @@ header .tagline {
     display: block;
     content:"";
     background-color: #8ae59e;
-    height: 1px;
-    width: 12.515625rem;
+    height: .1875rem;
+    width: 50vw;
     margin: 1.2rem auto;
 }
 h1::after {
     display: block;
     content:"";
     background-color: #8ae59e;
-    height: 1px;
-    width: 12.515625rem;
+    height: .1875rem;
+    width: 50vw;
     margin: 1.2rem auto;
 }
+/* ==== INTRODUCTION STYLES ==== */
+.introduction {
+    padding-bottom: 0;
+}
+#first-paragraph {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#first-paragraph::after {
+    display: block;
+    content:"";
+    background-color: #496d5f;
+    height: .1875rem;
+    width: 50vw;
+    margin: 2rem auto;
+}
+#p-introduction::after {
+    display: block;
+    content:"";
+    background-color: #496d5f;
+    height: .1875rem;
+    width: 50vw;
+    margin: 2rem auto;
+}
+/* ==== SERVICES STYLES ==== */
+.services {
+    background-color: hsla(100,0%,0%,.6);
+    width: 100%;
+    color: #8ae59e;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+}
+#services-list::after {
+    display: block;
+    content:"";
+    background-color: #abe6b8;
+    height: .1875rem;
+    width: 50vw;
+    margin: 2rem auto;
+}
+/* ==== SOFTWARE-KNOWLEDGE STYLES ==== */
+.software-knowledge img {
+    width: 75vw;
+    max-width: 800px;
+}
+.software-knowledge p {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+/* ==== PRICES STYLES ==== */
+.prices {
+    background-color: hsla(100,0%,0%,.6);
+    width: 100%;
+    color: #8ae59e;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+}
+.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#37c737;
+}
+.hourly-fee {
+    font-size: smaller;
+}
+.price-group::after {
+    display: block;
+    content:"";
+    background-color: #abe6b8;
+    height: .1875rem;
+    width: 50vw;
+    margin: 2rem auto;
+}
+/* ==== CONTACT STYLES ==== */
+.contact li {
+    list-style-type: none;
+    display: inline;
+    margin: 0.5rem;
+  }
+/* ==== FOOTER STYLES ==== */
+footer {
+    width: 100vw;
+    height: 10vh;
+    display: table;
+    background-color: #9aad7b;
+    text-align: center;
+    font-size: small;
+    color: black;
+}
+.footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
