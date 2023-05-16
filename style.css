@@ -29,19 +29,23 @@ h1 {
     margin-bottom: 1.5rem;
     line-height: 1em;
     font-style: italic;
-    font-weight: 700;
+    color: #d4a43b;
 }
 h2 {
     font-family: 'Lobster', cursive;
     font-size: 2rem;
     line-height: 2rem;
     font-style: italic;
+    color: #d4a43b;
 }
 h3 {
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: 700;
     font-style: italic;
+}
+strong {
+    text-transform: uppercase;
 }
 ul {
     text-align: left;
@@ -54,10 +58,10 @@ li {
 }
 a {
     text-decoration: none;
-    color: #268826;
+    color: #996d0e;
 }
 a:hover {
-    color: #0d7240;
+    color: #d4a43b;
     transition: color .15s ease-in-out;
 }
 /* ==== HEADER STYLES ==== */
@@ -81,6 +85,7 @@ a:hover {
 }
 header h2 {
     font-size: 1.5rem;
+    color: #8ae59e;
 }
 header .tagline {
     font-size: 1.5rem;
@@ -93,7 +98,7 @@ header .tagline {
     display: block;
     content:"";
     background-color: #8ae59e;
-    height: .1875rem;
+    height: .1rem;
     width: 50vw;
     margin: 1.2rem auto;
 }
@@ -101,13 +106,29 @@ h1::after {
     display: block;
     content:"";
     background-color: #8ae59e;
-    height: .1875rem;
+    height: .1rem;
     width: 50vw;
     margin: 1.2rem auto;
 }
+
+@media (min-width: 480px) {
+ 
+    .cover {
+        background: url('assets/DSC_3645.jpg') no-repeat;
+        background-size: contain;
+        background-position: top;
+        position: relative;
+        background-color: hsla(100,0%,0%,.6);    
+    }
+
+}
+
 /* ==== INTRODUCTION STYLES ==== */
 .introduction {
     padding-bottom: 0;
+}
+.introduction h2{
+    color: #996d0e;
 }
 #first-paragraph {
     font-size: 1.3rem;
@@ -116,7 +137,7 @@ h1::after {
 #first-paragraph::after {
     display: block;
     content:"";
-    background-color: #496d5f;
+    background-color: #996d0e;
     height: .1875rem;
     width: 50vw;
     margin: 2rem auto;
@@ -124,7 +145,7 @@ h1::after {
 #p-introduction::after {
     display: block;
     content:"";
-    background-color: #496d5f;
+    background-color: #996d0e;
     height: .1875rem;
     width: 50vw;
     margin: 2rem auto;
@@ -140,12 +161,15 @@ h1::after {
 #services-list::after {
     display: block;
     content:"";
-    background-color: #abe6b8;
+    background-color: #d4a43b;
     height: .1875rem;
     width: 50vw;
     margin: 2rem auto;
 }
 /* ==== SOFTWARE-KNOWLEDGE STYLES ==== */
+.software-knowledge h2 {
+    color: #996d0e;
+}
 .software-knowledge img {
     width: 75vw;
     max-width: 800px;
@@ -165,20 +189,44 @@ h1::after {
 .price {
     font-size: 1.3rem;
     font-weight: 700;
-    color:#37c737;
+    color:#d4a43b;
 }
 .hourly-fee {
+    font-size: smaller;
+}
+.prices p {
     font-size: smaller;
 }
 .price-group::after {
     display: block;
     content:"";
-    background-color: #abe6b8;
+    background-color: #d4a43b;
     height: .1875rem;
     width: 50vw;
     margin: 2rem auto;
 }
+@media (min-width: 768px) {
+
+    .price-group {
+        display: inline-block;
+        width: 22%;
+        height: 100%;
+        padding: 1rem;
+        margin: .5rem;
+        vertical-align: top; 
+    }
+    .price-group::after {
+        display: none;
+    }
+
+}
 /* ==== CONTACT STYLES ==== */
+.contact h2 {
+    color: #996d0e
+}
+#contact-list {
+    text-align: center;
+}
 .contact li {
     list-style-type: none;
     display: inline;
