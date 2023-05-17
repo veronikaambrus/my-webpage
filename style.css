@@ -99,7 +99,7 @@ header .tagline {
     content:"";
     background-color: #8ae59e;
     height: .1rem;
-    width: 50vw;
+    width: 33vw;
     margin: 1.2rem auto;
 }
 h1::after {
@@ -107,7 +107,7 @@ h1::after {
     content:"";
     background-color: #8ae59e;
     height: .1rem;
-    width: 50vw;
+    width: 33vw;
     margin: 1.2rem auto;
 }
 
@@ -119,6 +119,12 @@ h1::after {
         background-position: top;
         position: relative;
         background-color: hsla(100,0%,0%,.6);    
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    header h2 {
+        font-size: 2rem;
     }
 
 }
@@ -150,6 +156,12 @@ h1::after {
     width: 50vw;
     margin: 2rem auto;
 }
+@media (min-width: 480px) {
+     .introduction ul {
+        margin-left: 10vw;
+    }
+    
+}
 /* ==== SERVICES STYLES ==== */
 .services {
     background-color: hsla(100,0%,0%,.6);
@@ -165,6 +177,21 @@ h1::after {
     height: .1875rem;
     width: 50vw;
     margin: 2rem auto;
+}
+@media (min-width: 480px) {
+    #services-list, #no-list {
+       margin-left: 10vw;
+   }
+   #services-list::after {
+    display: block;
+    content:"";
+    background-color: #d4a43b;
+    height: .1875rem;
+    width: 50vw;
+    margin: 2rem auto;
+    margin-left: 10vw;
+}
+   
 }
 /* ==== SOFTWARE-KNOWLEDGE STYLES ==== */
 .software-knowledge h2 {
@@ -194,7 +221,7 @@ h1::after {
 .hourly-fee {
     font-size: smaller;
 }
-.prices p {
+.prices span {
     font-size: smaller;
 }
 .price-group::after {
