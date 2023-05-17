@@ -131,7 +131,7 @@ h1::after {
 
 /* ==== INTRODUCTION STYLES ==== */
 .introduction {
-    padding-bottom: 0;
+    padding-bottom: 0.1rem;
 }
 .introduction h2{
     color: #996d0e;
