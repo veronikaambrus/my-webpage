@@ -151,7 +151,7 @@ h1::after {
 
 @media (min-width: 480px) {
      .introduction ul {
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
     
 }
@@ -173,7 +173,7 @@ h1::after {
 }
 @media (min-width: 480px) {
     #services-list, #no-list {
-       margin-left: 10vw;
+       margin-left: 15vw;
    }
    #services-list::after {
     display: block;
