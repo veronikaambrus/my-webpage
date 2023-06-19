@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 /* Single-direction margin declaration to establish vertical rhythm. */
-h1, h2, h3, 
+h1, h2, h3, h4, 
 ul, 
 p, span, 
 img {
@@ -43,6 +43,10 @@ h3 {
     line-height: 1.5rem;
     font-weight: 700;
     font-style: italic;
+}
+h4 {
+    text-transform: uppercase;
+    color: #d4a43b;
 }
 strong {
     text-transform: uppercase;
