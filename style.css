@@ -167,7 +167,7 @@ h1::after {
     padding-left: 2.5rem;
     padding-top: 2rem;
 }
-#services-list::after {
+.service-type::after {
     display: block;
     content:"";
     background-color: #d4a43b;
@@ -179,7 +179,7 @@ h1::after {
     #services-list, #no-list {
        margin-left: 15vw;
    }
-   #services-list::after {
+   .service-type::after {
     display: block;
     content:"";
     background-color: #d4a43b;
@@ -214,7 +214,7 @@ h1::after {
     font-weight: 700;
     color:#d4a43b;
 }
-.hourly-fee {
+.comment {
     font-size: smaller;
 }
 .prices span {
