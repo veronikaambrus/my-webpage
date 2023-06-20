@@ -167,6 +167,11 @@ h1::after {
     padding-left: 2.5rem;
     padding-top: 2rem;
 }
+.service-list {
+    text-align: left;
+    list-style-type: circle;
+    padding-left: 1rem;
+}
 .service-type::after {
     display: block;
     content:"";
@@ -176,9 +181,11 @@ h1::after {
     margin: 2rem auto;
 }
 @media (min-width: 480px) {
-    #services-list, #no-list {
-       margin-left: 15vw;
-   }
+
+    .service-list {
+        margin-left: 15vw;
+    }
+  
    .service-type::after {
     display: block;
     content:"";
@@ -186,7 +193,6 @@ h1::after {
     height: .1875rem;
     width: 33vw;
     margin: 2rem auto;
-    margin-left: 15vw;
 }
    
 }
